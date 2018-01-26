@@ -47,6 +47,7 @@
             this.ProcessGridView.RowTemplate.Height = 23;
             this.ProcessGridView.Size = new System.Drawing.Size(501, 421);
             this.ProcessGridView.TabIndex = 0;
+            this.ProcessGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ProcessGridView_CellDoubleClick);
             // 
             // ProcessName
             // 
